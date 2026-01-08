@@ -1,10 +1,10 @@
 package com.learn.leetcode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
-
     public static int [] twoSumSolution(int[] nums, int target){
         //* method 1: sorted array
 //        int start = 0;
@@ -33,6 +33,12 @@ public class TwoSum {
             visitedMap.put(nums[i],i);
         }
         return  new int [] {-1,-1};
+    }
+
+    public static void main(String[] args) {
+       int [] result=  TwoSum.twoSumSolution(new int[]{2,7,11,15},9);
+        System.out.println("result::"+ Arrays.toString(result));
+
     }
 
 
