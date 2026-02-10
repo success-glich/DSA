@@ -1,4 +1,4 @@
-package com.learn.dsa;
+package com.learn.dsa.LinkedList;
 
 
 class Node {
