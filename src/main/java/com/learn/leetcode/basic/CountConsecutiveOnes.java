@@ -42,7 +42,26 @@ public class CountConsecutiveOnes {
             return ans;
         }
 
-    public static void main(String[] args) {
+//        * find max consecutive ones with you can flip k times 0 to 1.
+        public int findMaxConsecutiveOnes2(int[] nums, int k) {
 
+            int left =0;
+            int ans =0;
+            int windows =0;
+            for(int right=0;right<nums.length;right++){
+                windows += nums[right];
+                while(windows<windows-1){
+                    windows -= nums[left];
+                    left++;
+
+                }
+                ans = Math.max(ans,windows);
+            }
+            return ans;
+        }
+
+    public static void main(String[] args) {
+        int [] arr = {1,1,0,1, 0,1,1,1};
+        System.out.println(new CountConsecutiveOnes().findMaxConsecutiveOnes2(arr,2));
     }
 }
