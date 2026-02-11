@@ -35,7 +35,7 @@ public class CountConsecutiveOnes {
                     left++;
                 }
 
-                ans = Math.max(ans,windows);
+                ans = Math.max(ans,right-left+1);
 
             }
 
@@ -50,16 +50,38 @@ public class CountConsecutiveOnes {
             int windows =0;
             for(int right=0;right<nums.length;right++){
                 windows += nums[right];
-                while(windows<windows-1){
+//                while(!(windows ==right-left+1 || windows==right-left+k+1)){}
+                while(windows<right-left+1-1){
                     windows -= nums[left];
                     left++;
 
                 }
-                ans = Math.max(ans,windows);
+                ans = Math.max(ans,right-left+1);
             }
             return ans;
         }
 
+
+//        longest 1's
+
+    public int longestOnes(int[] nums, int k) {
+
+        int left =0;
+        int ans = 0;
+        int windows = 0;
+
+        for(int right =0;right<nums.length;right++){
+            windows = windows + nums[right];
+
+            while(windows+k<right-left+1){
+                windows = windows - nums[left];
+                left++;
+            }
+
+            ans = Math.max(ans, right-left+1);
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         int [] arr = {1,1,0,1, 0,1,1,1};
         System.out.println(new CountConsecutiveOnes().findMaxConsecutiveOnes2(arr,2));
