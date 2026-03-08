@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/BucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/basic/hashmap/SortCharacterByString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/SortCharacterByString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     &quot;Application.CountSumPairsLessThanTarget.executor&quot;: &quot;Debug&quot;,
     &quot;Application.EqualStringWithCost.executor&quot;: &quot;Debug&quot;,
     &quot;Application.FirstLetterAppear.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedLIstCycle.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LongestSubstringWithoutRepeatingChar.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxSumOfPairWithEqualDigits.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MaximumAverageSubArrayI.executor&quot;: &quot;Run&quot;,
@@ -76,7 +78,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordPattern">
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
+    <configuration name="LinkedLIstCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.LinkedLIstCycle" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubstringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -91,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharacterByString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.SortCharacterByString" />
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.MiddleOfLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.*" />
+          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.basic.hashmap.SumOfUnique" />
+    <configuration name="SortCharacterByString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.SortCharacterByString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -130,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkAllOccurrenceEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.basic.hashmap.checkAllOccurrenceEqual" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
+        <item itemvalue="Application.LinkedLIstCycle" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingChar" />
         <item itemvalue="Application.SortCharacterByString" />
-        <item itemvalue="Application.SumOfUnique" />
-        <item itemvalue="Application.checkAllOccurrenceEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +189,9 @@
       <workItem from="1772601121469" duration="1883000" />
       <workItem from="1772858154882" duration="1109000" />
       <workItem from="1772859500795" duration="21000" />
+      <workItem from="1772885592740" duration="12000" />
+      <workItem from="1772901652198" duration="1092000" />
+      <workItem from="1772981458918" duration="1259000" />
     </task>
     <servers />
   </component>
@@ -199,7 +204,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/leetcode/basic/MaximumAverageSubArrayI.java</url>
           <line>33</line>
-          <properties class="com.learn.leetcode.basic.MaximumAverageSubArrayI">
+          <properties class="com.learn.leetcode.basic.MaximumAverageSubArrayI" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
