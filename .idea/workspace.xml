@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,46 +33,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CountConsecutiveOnes.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountSumPairsLessThanTarget.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EqualStringWithCost.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FirstLetterAppear.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LinkedLIstCycle.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestSubstringWithoutRepeatingChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSumOfPairWithEqualDigits.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumAverageSubArrayI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumNoOfVowelsInSubstring.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumSubArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumCardPickup.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Pangram.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RansomNote.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortCharacterByString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SumOfUnique.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidParentheses.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.WordPattern.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.checkAllOccurrenceEqual.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Safal/Videos/DSA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CountConsecutiveOnes.executor": "Debug",
+    "Application.CountSumPairsLessThanTarget.executor": "Debug",
+    "Application.EqualStringWithCost.executor": "Debug",
+    "Application.FirstLetterAppear.executor": "Debug",
+    "Application.LinkedLIstCycle.executor": "Debug",
+    "Application.LongestSubstringWithoutRepeatingChar.executor": "Run",
+    "Application.MaxSumOfPairWithEqualDigits.executor": "Debug",
+    "Application.MaximumAverageSubArrayI.executor": "Run",
+    "Application.MaximumNoOfVowelsInSubstring.executor": "Debug",
+    "Application.MaximumSubArray.executor": "Debug",
+    "Application.MiddleOfLinkedList.executor": "Debug",
+    "Application.MinimumCardPickup.executor": "Debug",
+    "Application.Pangram.executor": "Debug",
+    "Application.RansomNote.executor": "Debug",
+    "Application.SortCharacterByString.executor": "Debug",
+    "Application.SumOfUnique.executor": "Debug",
+    "Application.ValidParentheses.executor": "Debug",
+    "Application.WordPattern.executor": "Debug",
+    "Application.checkAllOccurrenceEqual.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Safal/Videos/DSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MiddleOfLinkedList">
     <configuration name="LinkedLIstCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.LinkedLIstCycle" />
@@ -191,7 +187,7 @@
       <workItem from="1772859500795" duration="21000" />
       <workItem from="1772885592740" duration="12000" />
       <workItem from="1772901652198" duration="1092000" />
-      <workItem from="1772981458918" duration="1259000" />
+      <workItem from="1772981458918" duration="1993000" />
     </task>
     <servers />
   </component>
