@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="" />
+    <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,10 +47,12 @@
     "Application.MaximumAverageSubArrayI.executor": "Run",
     "Application.MaximumNoOfVowelsInSubstring.executor": "Debug",
     "Application.MaximumSubArray.executor": "Debug",
+    "Application.MaximumUniqueSubarray.executor": "Debug",
     "Application.MiddleOfLinkedList.executor": "Debug",
     "Application.MinimumCardPickup.executor": "Debug",
     "Application.Pangram.executor": "Debug",
     "Application.RansomNote.executor": "Debug",
+    "Application.RemoveNthNode.executor": "Debug",
     "Application.SortCharacterByString.executor": "Debug",
     "Application.SumOfUnique.executor": "Debug",
     "Application.ValidParentheses.executor": "Debug",
@@ -74,7 +78,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MiddleOfLinkedList">
+  <component name="RunManager" selected="Application.MaximumUniqueSubarray">
     <configuration name="LinkedLIstCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.LinkedLIstCycle" />
       <module name="DSA" />
@@ -88,13 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="25" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.basic.hashmap.LongestSubstringWithoutRepeatingChar" />
+    <configuration name="MaximumUniqueSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.medium.MaximumUniqueSubarray" />
+      <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.*" />
+          <option name="PATTERN" value="com.learn.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharacterByString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.SortCharacterByString" />
+    <configuration name="RemoveNthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.RemoveNthNode" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.*" />
+          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumUniqueSubarray" />
+        <item itemvalue="Application.RemoveNthNode" />
         <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.LinkedLIstCycle" />
         <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingChar" />
-        <item itemvalue="Application.SortCharacterByString" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +191,10 @@
       <workItem from="1772885592740" duration="12000" />
       <workItem from="1772901652198" duration="1092000" />
       <workItem from="1772981458918" duration="1993000" />
+      <workItem from="1773151932652" duration="1912000" />
+      <workItem from="1773406990071" duration="993000" />
+      <workItem from="1773410992926" duration="828000" />
+      <workItem from="1774192988457" duration="1517000" />
     </task>
     <servers />
   </component>
@@ -210,6 +217,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/leetcode/basic/string/WordPattern.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/leetcode/linkedlist/RemoveNthNode.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
