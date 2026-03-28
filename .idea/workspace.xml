@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Application.FirstLetterAppear.executor": "Debug",
     "Application.LinkedLIstCycle.executor": "Debug",
     "Application.LongestSubstringWithoutRepeatingChar.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.MaxSumOfPairWithEqualDigits.executor": "Debug",
     "Application.MaximumAverageSubArrayI.executor": "Run",
     "Application.MaximumNoOfVowelsInSubstring.executor": "Debug",
@@ -52,6 +54,7 @@
     "Application.MinimumCardPickup.executor": "Debug",
     "Application.Pangram.executor": "Debug",
     "Application.RansomNote.executor": "Debug",
+    "Application.RemoveDuplicateFromSortedList.executor": "Debug",
     "Application.RemoveNthNode.executor": "Debug",
     "Application.SortCharacterByString.executor": "Debug",
     "Application.SumOfUnique.executor": "Debug",
@@ -78,13 +81,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumUniqueSubarray">
-    <configuration name="LinkedLIstCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.LinkedLIstCycle" />
+  <component name="RunManager" selected="Application.RemoveDuplicateFromSortedList">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
+          <option name="PATTERN" value="com.learn.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicateFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.RemoveDuplicateFromSortedList" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveNthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.RemoveNthNode" />
       <module name="DSA" />
@@ -131,26 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.basic.string.WordPattern" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.basic.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateFromSortedList" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaximumUniqueSubarray" />
         <item itemvalue="Application.RemoveNthNode" />
         <item itemvalue="Application.MiddleOfLinkedList" />
-        <item itemvalue="Application.LinkedLIstCycle" />
-        <item itemvalue="Application.WordPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +197,10 @@
       <workItem from="1773151932652" duration="1912000" />
       <workItem from="1773406990071" duration="993000" />
       <workItem from="1773410992926" duration="828000" />
-      <workItem from="1774192988457" duration="2995000" />
+      <workItem from="1774192988457" duration="4384000" />
+      <workItem from="1774455769744" duration="596000" />
+      <workItem from="1774629627232" duration="404000" />
+      <workItem from="1774715531944" duration="2612000" />
     </task>
     <servers />
   </component>
