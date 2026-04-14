@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bd81c53-8d2a-45cc-9b90-25d6b44bf706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/leetcode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.RansomNote.executor": "Debug",
     "Application.RemoveDuplicateFromSortedList.executor": "Debug",
     "Application.RemoveNthNode.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Debug",
     "Application.SortCharacterByString.executor": "Debug",
     "Application.SumOfUnique.executor": "Debug",
     "Application.ValidParentheses.executor": "Debug",
@@ -81,7 +81,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDuplicateFromSortedList">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.Main" />
       <module name="DSA" />
@@ -101,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.MiddleOfLinkedList" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.leetcode.linkedlist.ReverseLinkedList" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.leetcode.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.RemoveDuplicateFromSortedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaximumUniqueSubarray" />
         <item itemvalue="Application.RemoveNthNode" />
-        <item itemvalue="Application.MiddleOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +201,10 @@
       <workItem from="1774455769744" duration="596000" />
       <workItem from="1774629627232" duration="404000" />
       <workItem from="1774715531944" duration="2612000" />
+      <workItem from="1775071396944" duration="67000" />
+      <workItem from="1775071486801" duration="77000" />
+      <workItem from="1775071589845" duration="118000" />
+      <workItem from="1776151581386" duration="5715000" />
     </task>
     <servers />
   </component>
